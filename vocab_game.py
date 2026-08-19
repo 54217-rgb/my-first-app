@@ -115,8 +115,8 @@ ans2 = st.text_input(
 )
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
-st.session_state.ans1_val = ans3
-st.session_state.ans2_val = ans4
+st.session_state.ans3_val = ans3
+st.session_state.ans4_val = ans4
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
     if st.button("📥 ส่งคำตอบ"):
